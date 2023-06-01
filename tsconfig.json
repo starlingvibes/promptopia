@@ -20,7 +20,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@*": ["./*"]
     }
   },
   "include": [
@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/blog/[blogIndex].js",
-    "app/blog/index.js"
+    "app/blog/index.js",
+    "app/layout.jsx"
   ],
   "exclude": ["node_modules"]
 }
